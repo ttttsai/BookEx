@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>添加新书</title>
+    <link rel="stylesheet" type="text/css" href="../static/css/addNewBook.css" />
+    <script type="text/javascript" src="../static/js/addNewBook.js"></script>
+</head>
+<body>
+    <nav>
+        <span id="hint">BookEx欢迎你</span>
+        <span id="login_info">
+            <a>登录</a> | <a>注册</a>
+        </span>
+        <div class="clear"></div>
+        <div id="search_container">
+            <div id="search">
+                <span id="logo">BookEx</span>
+                <input id="search_input" type="search" placeholder="输入你感兴趣的书名" />
+                <div class="clear"></div>
+            </div>
+        </div>
+        <menu>
+            <ul>
+                <li>
+                    <label>1.书名：</label>
+                    <input class="inputBookInfo" type="text" />
+                </li>
+                <li>
+                    <label class="infoDetail">2.图片：</label>
+                    <input class="inputBookInfo" type="file" />
+
+                </li>
+                <li>
+                    <label class="infoDetail">3.类别：</label>
+                    <select>
+                        <option value="eduBook">教材教辅</option>
+                        <option value="kidBook">少儿</option>
+                        <option value="artBook">文学艺术</option>
+                        <option value="peoBook">人文社科</option>
+                        <option value="ecoBook">经济管理</option>
+                        <option value="sucBook">励志与成功</option>
+                        <option value="techBook">科技</option>
+                    </select>
+                </li>
+                <li>
+                    <label class="infoDetail">4.作者：</label>
+                    <input class="inputBookInfo" type="text" />
+                </li>
+                <li>
+                    <label class="infoDetail">5.简介：</label>
+                    <textarea></textarea>
+                </li>
+            </ul>
+        </menu>
+        <div class="okBtn">
+            <input id="submit" type="submit">
+        </div>
+    </nav>
+
+</body>
+</html>
